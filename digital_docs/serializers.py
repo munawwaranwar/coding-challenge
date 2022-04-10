@@ -5,7 +5,7 @@ from .models import Topic, Folder, Document
 class TopicSerializer(serializers.ModelSerializer):
     class Meta:
         model = Topic
-        fields = ['id', 'topic_name']
+        fields = '__all__'
 
 
 class FolderSerializer(serializers.ModelSerializer):
