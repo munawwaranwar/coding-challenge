@@ -68,11 +68,11 @@ WSGI_APPLICATION = 'documents_store.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'doc_store',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd3d9o0bc8lgpkb',
+        'USER': 'lxuaziwsukdumy',
+        'PASSWORD': '829771245130d8f06d950ac0828be054f8fc12ac8c88b9cf074dd7a51bd887bc',
+        'HOST': 'ec2-52-3-60-53.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
